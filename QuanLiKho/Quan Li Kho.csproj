@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DXApplicationTest</RootNamespace>
     <AssemblyName>DXApplicationTest</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -131,29 +131,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form\LoadVideo.cs">
+    <Compile Include="LoadVideo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\LoadVideo.Designer.cs">
+    <Compile Include="LoadVideo.Designer.cs">
       <DependentUpon>LoadVideo.cs</DependentUpon>
     </Compile>
     <Compile Include="Script\Helper\ExportToExcel.cs" />
-    <Compile Include="Form\DoiMK.cs">
+    <Compile Include="DoiMK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\DoiMK.Designer.cs">
+    <Compile Include="DoiMK.Designer.cs">
       <DependentUpon>DoiMK.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\DangNhap.cs">
+    <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\DangNhap.Designer.cs">
+    <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\FormMain.cs">
+    <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\FormMain.Designer.cs">
+    <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Script\Helper\KetNoiCSDL.cs" />
@@ -167,30 +167,30 @@
     <Compile Include="Script\SQL_tblHangHoa.cs" />
     <Compile Include="Script\SQL_tblKhachHang.cs" />
     <Compile Include="Script\SQL_tblXuatKho.cs" />
-    <Compile Include="Form\Them.cs">
+    <Compile Include="Them.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\Them.Designer.cs">
+    <Compile Include="Them.Designer.cs">
       <DependentUpon>Them.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\TaoCSDL.cs">
+    <Compile Include="TaoCSDL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\TaoCSDL.Designer.cs">
+    <Compile Include="TaoCSDL.Designer.cs">
       <DependentUpon>TaoCSDL.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
-    <EmbeddedResource Include="Form\DoiMK.resx">
+    <EmbeddedResource Include="DoiMK.resx">
       <DependentUpon>DoiMK.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\DangNhap.resx">
+    <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\FormMain.resx">
+    <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\LoadVideo.resx">
+    <EmbeddedResource Include="LoadVideo.resx">
       <DependentUpon>LoadVideo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -204,10 +204,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Form\Them.resx">
+    <EmbeddedResource Include="Them.resx">
       <DependentUpon>Them.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\TaoCSDL.resx">
+    <EmbeddedResource Include="TaoCSDL.resx">
       <DependentUpon>TaoCSDL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="app.config">
